@@ -8,6 +8,8 @@ body{
 }
 #navbar {
     position: fixed;
+    border-right: 1px solid black;
+    height: 100%;
 }
 #title {
     font-size: 20px;
@@ -18,6 +20,8 @@ header {
 }
 #navlinks {
     list-style-type: none;
+    overflow: scroll;
+    height: 90%;
 }
 li a {
     display: block;
@@ -29,8 +33,13 @@ li a {
     padding-left: 20px;
 }
 #main-doc {
-    background-color: burlywood;
-    position: absolute;
-    left: 300px;
-
+    margin-left: 330px;
+    margin-top: 30px;
+}
+.main-section header h2 {
+    font-size: 28px;
+}
+.main-section p {
+    line-height: 20px;
+    margin-top: 10px;
 }
